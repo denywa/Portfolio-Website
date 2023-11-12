@@ -1,0 +1,78 @@
+.navbar {
+  padding: 12px 0px;
+  background-image: linear-gradient(to right, #2c67f2, rgb(63, 159, 255), #2c67f2);
+}
+
+.jumbotron {
+  padding-top: 8rem;
+  background-image: linear-gradient(to right, #2c67f27f, #62d0f47f, #2c67f27f);
+}
+#about {
+  padding-top: 8rem;
+}
+.waves {
+  background-image: linear-gradient(to right, #2c67f27f, #62d0f47f, #2c67f27f);
+}
+
+.nav-item {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: 500;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+
+.display-5 {
+  font-weight: 400;
+}
+
+.lead {
+  font-weight: 200;
+}
+
+.abt {
+  font-weight: 600;
+}
+
+#projects {
+  padding-top: 50px;
+  background-image: linear-gradient(to right, #2c67f27f, #62d0f47f, #2c67f27f);
+}
+
+.proj {
+  font-weight: 600;
+  padding-top: 5rem;
+}
+
+.card {
+  transition: all 0.2s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+#contact {
+  padding-top: 7rem;
+}
+
+footer {
+  background-image: linear-gradient(to right, #2c67f27f, #62d0f47f, #2c67f27f);
+}
